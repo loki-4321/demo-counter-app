@@ -10,7 +10,7 @@ pipeline{
                 
                 script{
                     
-                    git branch: 'main', url: 'https://github.com/loki-4321/demo-counter-app.git'
+                    git branch: 'main', url: 'https://github.com/vikash-kumar01/mrdevops_javaapplication.git'
                 }
             }
         }
@@ -44,7 +44,19 @@ pipeline{
                 }
             }
         }
-        
-      }
+        stage('Static code analysis'){
+            
+            steps{
+                
+                scripts{
+                    
+                    withSonarQubeEnv(credentialsId: 'Sonar-api-key') {
+                        sh 'mvn clean package sonar:sonar'
+                    }
+                  }      
+                }
+            }
+            
+        }
         
 }
