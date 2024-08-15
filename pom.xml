@@ -57,9 +57,8 @@
 			</activation>
 			<properties>
 				<sonar.host.url>http://localhost:9000/</sonar.host.url>
-				<sonar-maven-plugin.version>4.0.0.4121</sonar-maven-plugin.version>
-				<sonar.login>admin</sonar.login>
-				<sonar.password>admin</sonar.password>
+                                <sonar-maven-plugin.version>4.0.0.4121</sonar-maven-plugin.version>
+                                <sonar.login>363e75bec6bffc270835c84fff1f66ea68f4c4f7</sonar.login>
 			</properties>
 			<build>
 				<plugins>
