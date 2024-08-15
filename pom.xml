@@ -51,7 +51,7 @@
 				<artifactId>sonar-maven-plugin</artifactId>
 				<version>${sonar-maven-plugin.version}</version>
 				<configuration>
-					<sonar.host.url>http://localhost:9000/</sonar.host.url>
+					<sonar.host.url>http://52.74.204.59:9000/</sonar.host.url>
 					<sonar.login>363e75bec6bffc270835c84fff1f66ea68f4c4f7</sonar.login>
 				</configuration>
 			</plugin>
