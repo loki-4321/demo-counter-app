@@ -14,7 +14,7 @@
 	<name>springboot</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -57,7 +57,7 @@
 			</activation>
 			<properties>
 				<sonar.host.url>http://localhost:9000/</sonar.host.url>
-                                <sonar-maven-plugin.version>4.0.0.4121</sonar-maven-plugin.version>
+                                <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
                                 <sonar.login>363e75bec6bffc270835c84fff1f66ea68f4c4f7</sonar.login>
 			</properties>
 			<build>
